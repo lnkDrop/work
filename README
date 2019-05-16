@@ -1,20 +1,21 @@
-GitHubºÍGitµÄ³õ²½Ê¹ÓÃ
-=======
-##Ò»¡¢×¢²áGitHub
-* 1½øÈëGitHub£¬ÍøÖ·£ºhttps://github.com/
-* 2µã»÷ÓÒÉÏ½ÇSign up½øÈë×¢²á½çÃæ
-* 3ÒÀ´ÎÊäÈëÓÃ»§Ãû£¬ÓÊÏä£¬ÃÜÂë£¬ÑéÖ¤Âë
-* 4µÇÂ¼×Ô¼ºµÄÓÊÏäÑéÖ¤ÓÊÏä£¬È»ºóµÇÂ¼GitHub
+GitHubå’ŒGitçš„åˆæ­¥ä½¿ç”¨
 
-##¶ş¡¢ÅäÖÃgit»ñÈ¡ÃØÔ¿
-* 1 ÏÂÔØ°²×°git£¬ÍøÖ·£ºhttps://git-scm.com/downloads
-* 2 ´ò¿ªgit£¬ÊäÈë $ssh-ketygen -t rsa -C "your_email@youremail.com" 
-ºóÃæµÄyour_email@youremail.comÊÇÄãÔÚgithubÉÏ×¢²áµÄÓÊÏä
+=======
+##ä¸€ã€æ³¨å†ŒGitHub
+* 1è¿›å…¥GitHubï¼Œç½‘å€ï¼šhttps://github.com/
+* 2ç‚¹å‡»å³ä¸Šè§’Sign upè¿›å…¥æ³¨å†Œç•Œé¢
+* 3ä¾æ¬¡è¾“å…¥ç”¨æˆ·åï¼Œé‚®ç®±ï¼Œå¯†ç ï¼ŒéªŒè¯ç 
+* 4ç™»å½•è‡ªå·±çš„é‚®ç®±éªŒè¯é‚®ç®±ï¼Œç„¶åç™»å½•GitHub
+
+##äºŒã€é…ç½®gitè·å–ç§˜é’¥
+* 1 ä¸‹è½½å®‰è£…gitï¼Œç½‘å€ï¼šhttps://git-scm.com/downloads
+* 2 æ‰“å¼€gitï¼Œè¾“å…¥ $ssh-ketygen -t rsa -C "your_email@youremail.com" 
+åé¢çš„your_email@youremail.comæ˜¯ä½ åœ¨githubä¸Šæ³¨å†Œçš„é‚®ç®±
 * 3 
 
-##Èı¡¢GitHubÌí¼ÓSSHÃØÔ¿
-* 1µÇÂ¼×Ô¼ºµÄGitHub
-* 2µã»÷ÓÒÉÏ½Ç×Ô¼ºµÄÍ·Ïñ£¬´ò¿ª"setting"
-* 3×ó²àÀ¸ÕÒµ½"SSH and GPS keys" µã»÷½øÈë
-* 4µã»÷"New SSH key"
+##ä¸‰ã€GitHubæ·»åŠ SSHç§˜é’¥
+* 1ç™»å½•è‡ªå·±çš„GitHub
+* 2ç‚¹å‡»å³ä¸Šè§’è‡ªå·±çš„å¤´åƒï¼Œæ‰“å¼€"setting"
+* 3å·¦ä¾§æ æ‰¾åˆ°"SSH and GPS keys" ç‚¹å‡»è¿›å…¥
+* 4ç‚¹å‡»"New SSH key"
 
