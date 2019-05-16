@@ -29,9 +29,12 @@ GitHub和Git的初步使用
 # 三、GitHub添加SSH秘钥
 * 1登录自己的GitHub账号。
 * 2点击右上角自己的头像，打开"setting"。
+* ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/sttings.png)
+* 
 * 3左侧栏找到"SSH and GPS keys" 点击进入。
+* ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/SSH.png)
 * 4右上角点击"New SSH key",
-![图片的alt信息，可空)]()
+![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/newSSHkey.png)
 
 会进入一个输入界面，Title随便取一个名字，最好是你当前使用的计算机名以便区分，然后将刚刚复制的keys粘贴到key框框中，点击Add SSH key。
 * 5验证一下连接是否成功回到本机，打开Git Bash,输入命令
@@ -47,8 +50,12 @@ $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续�
 * 3添加你的项目文件，一般GitHub默认有一个README文件，即说明文件，把他看做一个文本文件，用来说明描述项目或有关说明。我们首先创建它，输入$ echo "#测试说明" >> README.md 
 * 4用git add添加文件进入git版本库，在此之前先输入$ git status来查看文件变动，看见标红的README.md文件说明此文件有新改动但是没有上传保存。我们将它添加进去，输入$ git add README.md 添加文件，再提交备注信息，输入$ git commit -m "你的备注信息"
 * 5至此我们完成了文件的改动，但它还保留在本地，我们需要把他们上传到远程仓库GitHub里面，首先在你的GitHub上新建项目库（点击右上角头像左边的＋号，选择New repository）,然后在Repository name里自己起一个你的远程仓库名，其他默认，点击创建。
+* ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/new.png)
+* * ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/xmname.png)
 * 6在创建好的项目库中提示添加你的项目文件，我们的项目文件在本地，所以选择第一种，复制它的SSH
+* ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/copy.png)
 * 7回到你的本地项目文件夹，绑定远程仓库，只需要在gitbash中输入$ git remote add origin "粘贴第6步复制的SSH地址"(右键paste)，然后敲回车。没有报错就接着输入$ git push -u origin master ，回车之后等待一段时间，可以看到文件上传成功，回到GitHub仓库下刷新看看，添加的文件有没有导入进来。如果能显示刚刚添加README文件就证明已经上传成功啦！
+* ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/test.png)
 </font><br /> 
 
 ---
@@ -62,4 +69,6 @@ $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续�
 * 4$ git commit -m "你的备注信息"-->提交所有更新过的文件
 * 5$ git remote add origin github的SSH地址.git-->添加远程版本库
 * 6$ git push -u origin master-->上传代码及快速合并
+
+
 </font><br /> 
