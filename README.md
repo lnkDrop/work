@@ -30,8 +30,10 @@ GitHub和Git的初步使用
 * 1登录自己的GitHub账号。
 * 2点击右上角自己的头像，打开"setting"。
 * 3左侧栏找到"SSH and GPS keys" 点击进入。
-* 4右上角点击"New SSH key"，
-![newSSHkeys](https://raw.githubusercontent.com/lnkDrop/work/master/img/%24%25NS2FI4Q_5_AU2VZ4(F%5BCR.png)会进入一个输入界面，Title随便取一个名字，最好是你当前使用的计算机名以便区分，然后将刚刚复制的keys粘贴到key框框中，点击Add SSH key。
+* 4右上角点击"New SSH key",
+![图片的alt信息，可空)]()
+
+会进入一个输入界面，Title随便取一个名字，最好是你当前使用的计算机名以便区分，然后将刚刚复制的keys粘贴到key框框中，点击Add SSH key。
 * 5验证一下连接是否成功回到本机，打开Git Bash,输入命令
 $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续，看到显示You've successfully authenticated, but GitHub does not provide shell access代表连接已经成功。
 </font><br /> 
