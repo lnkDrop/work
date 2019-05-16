@@ -72,6 +72,11 @@ $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续�
 * 4$ git commit -m "你的备注信息"-->提交所有更新过的文件
 * 5$ git remote add origin github的SSH地址.git-->添加远程版本库
 * 6$ git push -u origin master-->上传代码及快速合并
-
+* 常用命令表：
+* ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/git.jpg)
 
 </font><br /> 
+
+---
+
+### 注：img文件夹中有部分git指令运行截图,报错的先看有没有初始化本地仓库，然后看顺序有没有错，需要反复执行的命令有第五条中的2,3,4,6点，顺序不能颠倒。README说明文件需要用到md编辑器，推荐下载Markdown编辑器进行编辑
