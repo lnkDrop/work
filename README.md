@@ -16,10 +16,13 @@ GitHub和Git的初步使用
 
 # 二、配置git获取秘钥
 * 1 下载安装git，网址：https://git-scm.com/downloads
-* 2 打开git，输入 $ssh-ketygen -t rsa -C "your_email@youremail.com" 
+* 2 配置git的邮箱和密码，两串代码如下：
+* $ git config --global user.name "输入你的用户名"
+* $ git config --global user.email "输入你的邮箱"
+* 3 打开git，输入 $ssh-ketygen -t rsa -C "your_email@youremail.com" 
 后面的your_email@youremail.com是你在github上注册使用的邮箱。
-* 3 输入后Git要求确认路径和密码，直接回车默认设置，它会显示秘钥图像代表keys已经生成了，我们需要这串秘钥来和GitHub上的远程仓库和本地仓库进行远程连接。
-* 4 秘钥路径在C：\用户\你的用户名（默认是Administrator文件夹）\.ssh 这个文件夹，找到打开后会看到一个id_rsa.pub文件，右键记事本或其他编辑器打开，复制全部keys。
+* 4 输入后Git要求确认路径和密码，直接回车默认设置，它会显示秘钥图像代表keys已经生成了，我们需要这串秘钥来和GitHub上的远程仓库和本地仓库进行远程连接。
+* 5 秘钥路径在C：\用户\你的用户名（默认是Administrator文件夹）\.ssh 这个文件夹，找到打开后会看到一个id_rsa.pub文件，右键记事本或其他编辑器打开，复制全部keys。
 </font><br /> 
 
 ---
