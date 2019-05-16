@@ -1,6 +1,7 @@
 GitHub和Git的初步使用
 =======
 <font size="3">
+
 # 一、注册GitHub
 * 1进入GitHub，网址：https://github.com/
 * 2点击右上角Sign up进入注册界面
@@ -12,6 +13,7 @@ GitHub和Git的初步使用
 ---
 
 <font size="3">
+
 # 二、配置git获取秘钥
 * 1 下载安装git，网址：https://git-scm.com/downloads
 * 2 打开git，输入 $ssh-ketygen -t rsa -C "your_email@youremail.com" 
@@ -23,6 +25,7 @@ GitHub和Git的初步使用
 ---
 
 <font size="3">
+
 # 三、GitHub添加SSH秘钥
 * 1登录自己的GitHub账号。
 * 2点击右上角自己的头像，打开"setting"。
@@ -48,6 +51,7 @@ $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续�
 ---
 
 <font size="3">
+
 # 五、6个常用命令
 * 1$ git init    -->初始化本地仓库
 * 2$ git status -->查看状态
