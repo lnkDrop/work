@@ -105,16 +105,6 @@ $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续�
 
 ---
 
-<font size="3">
-
-# 七、fork实现分支内容的增加和删除
-参考以下网址
-
->https://www.cnblogs.com/patchouli/p/6511251.html
-
-</font><br /> 
-
----
 
 ### 注：img文件夹中有部分git指令运行截图,报错的先看有没有初始化本地仓库，然后看顺序有没有错。
 
