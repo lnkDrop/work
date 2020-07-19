@@ -59,7 +59,8 @@ $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续�
 * ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/copy.png)
 * 7回到你的本地项目文件夹，绑定远程仓库，只需要在gitbash中输入$ git remote add origin "粘贴第6步复制的SSH地址"(右键paste)，然后敲回车。没有报错就接着输入$ git push -u origin master ，回车之后等待一段时间，可以看到文件上传成功，回到GitHub仓库下刷新看看，添加的文件有没有导入进来。如果能显示刚刚添加README文件就证明已经上传成功啦！
 * ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/test.png)
-</font><br /> 
+* 项目合并 ``` git pull --rebase origin master ```
+</ font> <br />
 
 ---
 
