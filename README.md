@@ -86,7 +86,6 @@ $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续�
 
 ---
 
-<font size="3">
 
 # 六、更新本地文件到github
 * 1假如你本地文件做出修改，需要同步上传到github，只要使用第五条6个常用命令的几个代码。
@@ -102,7 +101,6 @@ $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续�
 * 5上传修改文件到github，输入
 	$ git push -u origin main
 
-</font><br /> 
 
 ---
 
