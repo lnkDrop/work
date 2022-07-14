@@ -1,6 +1,5 @@
 GitHub和Git的初步使用
 =======
-<font size="3">
 
 # 一、注册GitHub
 * 1进入GitHub，网址：https://github.com/
@@ -12,7 +11,6 @@ GitHub和Git的初步使用
 
 ---
 
-<font size="3">
 
 # 二、配置git获取秘钥
 * 1 下载安装git，网址：https://git-scm.com/downloads
@@ -23,11 +21,9 @@ GitHub和Git的初步使用
 后面的your_email@youremail.com是你在github上注册使用的邮箱。
 * 4 输入后Git要求确认路径和密码，直接回车默认设置，它会显示秘钥图像代表keys已经生成了，我们需要这串秘钥来和GitHub上的远程仓库和本地仓库进行远程连接。
 * 5 秘钥路径在C：\用户\你的用户名（默认是Administrator文件夹）\.ssh 这个文件夹，找到打开后会看到一个id_rsa.pub文件，右键记事本或其他编辑器打开，复制全部keys。
-</font><br /> 
 
 ---
 
-<font size="3">
 
 # 三、GitHub添加SSH秘钥
 * 1登录自己的GitHub账号。
@@ -42,10 +38,8 @@ GitHub和Git的初步使用
 会进入一个输入界面，Title随便取一个名字，最好是你当前使用的计算机名以便区分，然后将刚刚复制的keys粘贴到key框框中，点击Add SSH key。
 * 5验证一下连接是否成功回到本机，打开Git Bash,输入命令
 $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续，看到显示You've successfully authenticated, but GitHub does not provide shell access代表连接已经成功。
-</font><br /> 
 
 ---
-<font size="3">
 
 # 四、Git编辑本地仓库和上传至GitHub远程仓库
 * 1首先进入要进行操作的项目文件夹或者新建，在当前目录下右键Gitbash，也可以用cd命令进入
@@ -60,11 +54,9 @@ $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续�
 * 7回到你的本地项目文件夹，绑定远程仓库，只需要在gitbash中输入$ git remote add origin "粘贴第6步复制的SSH地址"(右键paste)，然后敲回车。没有报错就接着输入 ```$ git push -u origin master``` 回车之后等待一段时间，可以看到文件上传成功，回到GitHub仓库下刷新看看，添加的文件有没有导入进来。如果能显示刚刚添加README文件就证明已经上传成功啦！
 * ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/test.png)
 * 项目合并 ``` git pull --rebase origin main ```
-</ font> <br />
 
 ---
 
-<font size="3">
 
 # 五、6个常用命令
 * 1
@@ -82,7 +74,6 @@ $ ssh -T git@github.com，第一次输入会显示continue？，输入yes继续�
 * 7常用命令表：
 * ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/git.jpg)
 
-</font><br /> 
 
 ---
 
