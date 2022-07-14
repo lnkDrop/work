@@ -7,7 +7,6 @@ GitHub和Git的初步使用
 * 3依次输入用户名，邮箱，密码，验证码
 * 4登录自己的邮箱验证邮箱，然后登录GitHub
 * 5建议使用chrome浏览器，在网址连接右边点击翻译此页后自动翻译页面为中文
-</font><br /> 
 
 ---
 
@@ -29,7 +28,6 @@ GitHub和Git的初步使用
 * 1登录自己的GitHub账号。
 * 2点击右上角自己的头像，打开"setting"。
 * ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/sttings.png)
-* 
 * 3左侧栏找到"SSH and GPS keys" 点击进入。
 * ![图片的alt信息，可空)](https://raw.githubusercontent.com/lnkDrop/work/master/img/SSH.png)
 * 4右上角点击"New SSH key",
